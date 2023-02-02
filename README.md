@@ -11,3 +11,8 @@ go install github.com/SantiagoBedoya/down@latest
 ```
 
 ### Using homebrew
+
+```bash
+brew tap SantiagoBedoya/down
+brew install SantiagoBedoya/down
+```
