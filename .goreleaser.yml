@@ -1,0 +1,30 @@
+builds:
+  - binary: down
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -mod=vendor
+
+release:
+  prerelease: auto
+
+universal_binaries:
+  - replace: true
+
+brews:
+  - name: down
+    homepage: https://github.com/SantiagoBedoya/down
+    tap:
+      owner: SantiagoBedoya
+      name: homebrew-down
+    commit_author:
+      name: a.sbedoya200110@gmail.com
+
+checksum:
+  name_template: "checksums.txt"

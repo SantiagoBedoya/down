@@ -9,3 +9,5 @@
 ```bash
 go install github.com/SantiagoBedoya/down@latest
 ```
+
+### Using homebrew
