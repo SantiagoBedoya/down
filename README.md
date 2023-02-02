@@ -2,6 +2,10 @@
 
 ![Preview](https://github.com/SantiagoBedoya/down/blob/main/images/image.png)
 
+## Usage
+
+![Preview](https://github.com/SantiagoBedoya/down/blob/main/images/image1.png)
+
 ## How to install
 
 ### Using golang
