@@ -4,7 +4,17 @@
 
 ## Usage
 
-![Preview](https://github.com/SantiagoBedoya/down/blob/main/images/image1.png)
+```bash
+Usage of down:
+  -c int
+        Concurrent workers (default 5)
+  -dest string
+        Destination folder (default $HOME)
+  -mode int
+        Download Mode (concurrent: 0 | normal: 1) (default: 0)
+  -url string
+        File URL to Download
+```
 
 ## How to install
 
