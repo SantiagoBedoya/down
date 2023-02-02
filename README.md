@@ -1,6 +1,6 @@
 # Downloader CLI
 
-[Preview](https://github.com/SantiagoBedoya/down/blob/main/images/image.png)
+![Preview](https://github.com/SantiagoBedoya/down/blob/main/images/image.png)
 
 ## How to install
 
