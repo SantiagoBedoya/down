@@ -21,8 +21,8 @@ func main() {
 	home, _ := os.UserHomeDir()
 	flag.StringVar(&url, "url", "", "File URL to Download")
 	flag.StringVar(&dest, "dest", home, "Destination folder")
-	flag.IntVar(&mode, "mode", 0, "Download Mode (concurrent: 0 | normal: 1)")
-	flag.IntVar(&workers, "workers", 5, "Worker for concurrent download")
+	flag.IntVar(&mode, "mode", 0, "Download Mode (concurrent: 0 | normal: 1) (default: 0)")
+	flag.IntVar(&workers, "c", 5, "Concurrent workers")
 
 	flag.Parse()
 
