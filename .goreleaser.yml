@@ -22,7 +22,7 @@ brews:
     homepage: https://github.com/SantiagoBedoya/down
     tap:
       owner: SantiagoBedoya
-      name: homebrew-down
+      name: homebrew-santiagobedoya
     commit_author:
       name: a.sbedoya200110@gmail.com
 
